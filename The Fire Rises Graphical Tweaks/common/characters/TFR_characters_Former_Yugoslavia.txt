@@ -245,6 +245,7 @@
 				}
 			}
 			country_leader={
+                                desc = "SRP_milorad_dodik_char_desc"
 				ideology=left_populism
 				expire="1.1.1.1"
 				id=-1
