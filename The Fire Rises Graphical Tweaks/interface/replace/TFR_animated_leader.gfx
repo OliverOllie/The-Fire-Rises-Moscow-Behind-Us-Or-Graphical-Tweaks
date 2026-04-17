@@ -1,0 +1,10 @@
+	spriteTypes = {
+			frameAnimatedSpriteType = {
+			name = "GFX_Portrait_PRC_The_Long_March"
+			texturefile = "gfx/leaders/PRC/PRC_Mao_Zedong.dds"
+			noOfFrames = 48
+			animation_rate_fps = 7
+			looping = yes
+			play_on_show = yes  
+		}
+	}
