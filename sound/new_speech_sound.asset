@@ -1,0 +1,74 @@
+sound = {
+  name = "UKR_Super_SpecialOperation"
+  file = "Super_Events/UKR_Super_SpecialOperation.wav"
+}
+
+sound = {
+  name = "MEX_Cartel_War"
+  file = "Super_Events/MEX_Cartel_War.wav"
+}
+
+sound = {
+  name = "Serbian_Kosovo_War"
+  file = "Super_Events/Serbian_Kosovo_War.wav"
+}
+
+sound = {
+  name = "Second_Korean_War"
+  file = "Super_Events/Second_Korean_War.wav"
+}
+
+sound = {
+  name = "Fourth_Arab_Israeli_War_Super"
+  file = "Super_Events/Fourth_Arab_Israeli_War.wav"
+}
+
+sound = {
+  name = "Myanmar_Civil_War_Super"
+  file = "Super_Events/Myanmar_Civil_War.wav"
+}
+
+sound = {
+  name = "Wagner_Coup_Super"
+  file = "Super_Events/Wagner_Coup.wav"
+}
+
+sound = {
+  name = "Central_American_War_Super"
+  file = "Super_Events/Central_American_War.wav"
+}
+
+sound = {
+  name = "Syrian_Civil_War_End_Bashar_Super"
+  file = "Super_Events/Syrian_Civil_War_End_Bashar.wav"
+}
+
+sound = {
+  name = "Algeria_Morocco_War_Super"
+  file = "Super_Events/Algeria_Morocco_War.wav"
+}
+
+sound = {
+  name = "Ethiopia_Egypt_War_Super"
+  file = "Super_Events/Ethiopia_Egypt_War.wav"
+}
+
+sound = {
+  name = "India_Pakistan_War_Super"
+  file = "Super_Events/India_Pakistan_War.wav"
+}
+
+sound = {
+  name = "Navalny_Coup_Super"
+  file = "Super_Events/Navalny_Coup.wav"
+}
+
+sound = {
+  name = "Russia_Kazakhstan_Pacification_Super"
+  file = "Super_Events/Russia_Kazakhstan_Pacification.wav"
+}
+
+sound = {
+  name = "Spanish_Civil_War_Super"
+  file = "Super_Events/Spanish_Civil_War.wav"
+}

@@ -1,0 +1,271 @@
+	scripted_gui = {
+		UKR_Super_SpecialOperation = {
+			context_type = player_context
+			window_name = "UKR_Super_SpecialOperation"
+
+			visible = {
+				has_country_flag = UKR_SpecialOperation_se_flag
+				NOT = {
+					has_global_flag = super_events_off_flag
+				}
+			}
+			
+			effects = {
+				Super_Event_Close_click = {
+					clr_country_flag = UKR_SpecialOperation_se_flag
+				}
+			}
+		}	
+
+		MEX_Cartel_War = {
+			context_type = player_context
+			window_name = "MEX_Cartel_War"
+
+			visible = {
+				has_country_flag = MEX_Cartel_War_se_flag
+				NOT = {
+					has_global_flag = super_events_off_flag
+				}
+			}
+			
+			effects = {
+				Super_Event_Close_click = {
+					clr_country_flag = MEX_Cartel_War_se_flag
+				}
+			}
+		}	
+
+		Serbian_Kosovo_War = {
+			context_type = player_context
+			window_name = "Serbian_Kosovo_War"
+
+			visible = {
+				has_country_flag = Serbian_Kosovo_War_se_flag
+				NOT = {
+					has_global_flag = super_events_off_flag
+				}
+			}
+			
+			effects = {
+				Super_Event_Close_click = {
+					clr_country_flag = Serbian_Kosovo_War_se_flag
+				}
+			}
+		}
+
+		Second_Korean_War = {
+			context_type = player_context
+			window_name = "Second_Korean_War"
+
+			visible = {
+				has_country_flag = Second_Korean_War_se_flag
+				NOT = {
+					has_global_flag = super_events_off_flag
+				}
+			}
+			
+			effects = {
+				Super_Event_Close_click = {
+					clr_country_flag = Second_Korean_War_se_flag
+				}
+			}
+		}
+
+		Fourth_Arab_Israeli_War_Super = {
+			context_type = player_context
+			window_name = "Fourth_Arab_Israeli_War_Super"
+
+			visible = {
+				has_country_flag = Fourth_Arab_Israeli_War_Super_se_flag
+				NOT = {
+					has_global_flag = super_events_off_flag
+				}
+			}
+			
+			effects = {
+				Super_Event_Close_click = {
+					clr_country_flag = Fourth_Arab_Israeli_War_Super_se_flag
+				}
+			}
+		}
+
+		Myanmar_Civil_War_Super = {
+			context_type = player_context
+			window_name = "Myanmar_Civil_War_Super"
+
+			visible = {
+				has_country_flag = Myanmar_Civil_War_Super_se_flag
+				NOT = {
+					has_global_flag = super_events_off_flag
+				}
+			}
+			
+			effects = {
+				Super_Event_Close_click = {
+					clr_country_flag = Myanmar_Civil_War_Super_se_flag
+				}
+			}
+		}
+
+		Wagner_Coup_Super = {
+			context_type = player_context
+			window_name = "Wagner_Coup_Super"
+
+			visible = {
+				has_country_flag = Wagner_Coup_Super_se_flag
+				NOT = {
+					has_global_flag = super_events_off_flag
+				}
+			}
+			
+			effects = {
+				Super_Event_Close_click = {
+					clr_country_flag = Wagner_Coup_Super_se_flag
+				}
+			}
+		}
+
+		Central_American_War_Super = {
+			context_type = player_context
+			window_name = "Central_American_War_Super"
+
+			visible = {
+				has_country_flag = Central_American_War_Super_se_flag
+				NOT = {
+					has_global_flag = super_events_off_flag
+				}
+			}
+			
+			effects = {
+				Super_Event_Close_click = {
+					clr_country_flag = Central_American_War_Super_se_flag
+				}
+			}
+		}
+
+		Syrian_Civil_War_End_Bashar_Super = {
+			context_type = player_context
+			window_name = "Syrian_Civil_War_End_Bashar_Super"
+
+			visible = {
+				has_country_flag = Syrian_Civil_War_End_Bashar_Super_se_flag
+				NOT = {
+					has_global_flag = super_events_off_flag
+				}
+			}
+			
+			effects = {
+				Super_Event_Close_click = {
+					clr_country_flag = Syrian_Civil_War_End_Bashar_Super_se_flag
+				}
+			}
+		}
+
+		Algeria_Morocco_War_Super = {
+			context_type = player_context
+			window_name = "Algeria_Morocco_War_Super"
+
+			visible = {
+				has_country_flag = Algeria_Morocco_War_Super_se_flag
+				NOT = {
+					has_global_flag = super_events_off_flag
+				}
+			}
+			
+			effects = {
+				Super_Event_Close_click = {
+					clr_country_flag = Algeria_Morocco_War_Super_se_flag
+				}
+			}
+		}
+
+		Ethiopia_Egypt_War_Super = {
+			context_type = player_context
+			window_name = "Ethiopia_Egypt_War_Super"
+
+			visible = {
+				has_country_flag = Ethiopia_Egypt_War_Super_se_flag
+				NOT = {
+					has_global_flag = super_events_off_flag
+				}
+			}
+			
+			effects = {
+				Super_Event_Close_click = {
+					clr_country_flag = Ethiopia_Egypt_War_Super_se_flag
+				}
+			}
+		}
+
+		India_Pakistan_War_Super = {
+			context_type = player_context
+			window_name = "India_Pakistan_War_Super"
+
+			visible = {
+				has_country_flag = India_Pakistan_War_Super_se_flag
+				NOT = {
+					has_global_flag = super_events_off_flag
+				}
+			}
+			
+			effects = {
+				Super_Event_Close_click = {
+					clr_country_flag = India_Pakistan_War_Super_se_flag
+				}
+			}
+		}
+
+		Navalny_Coup_Super = {
+			context_type = player_context
+			window_name = "Navalny_Coup_Super"
+
+			visible = {
+				has_country_flag = Navalny_Coup_Super_se_flag
+				NOT = {
+					has_global_flag = super_events_off_flag
+				}
+			}
+			
+			effects = {
+				Super_Event_Close_click = {
+					clr_country_flag = Navalny_Coup_Super_se_flag
+				}
+			}
+		}
+
+		Russia_Kazakhstan_Pacification_Super = {
+			context_type = player_context
+			window_name = "Russia_Kazakhstan_Pacification_Super"
+
+			visible = {
+				has_country_flag = Russia_Kazakhstan_Pacification_Super_se_flag
+				NOT = {
+					has_global_flag = super_events_off_flag
+				}
+			}
+			
+			effects = {
+				Super_Event_Close_click = {
+					clr_country_flag = Russia_Kazakhstan_Pacification_Super_se_flag
+				}
+			}
+		}
+
+		Spanish_Civil_War_Super = {
+			context_type = player_context
+			window_name = "Spanish_Civil_War_Super"
+
+			visible = {
+				has_country_flag = Spanish_Civil_War_Super_se_flag
+				NOT = {
+					has_global_flag = super_events_off_flag
+				}
+			}
+			
+			effects = {
+				Super_Event_Close_click = {
+					clr_country_flag = Spanish_Civil_War_Super_se_flag
+				}
+			}
+		}
+	}

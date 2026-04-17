@@ -1,0 +1,244 @@
+    defined_text = {
+        name = saimon_get_super_event_title
+
+        text = {
+            trigger = { has_country_flag = UKR_SpecialOperation_se_flag }
+            localization_key = "UKR_Super_SpecialOperation_title"
+        }
+
+        text = {
+            trigger = { has_country_flag = MEX_Cartel_War_se_flag }
+            localization_key = "MEX_Cartel_War_title"
+        }
+
+        text = {
+            trigger = { has_country_flag = Serbian_Kosovo_War_se_flag }
+            localization_key = "Serbian_Kosovo_War_title"
+        }
+
+        text = {
+            trigger = { has_country_flag = Second_Korean_War_se_flag }
+            localization_key = "Second_Korean_War_title"
+        }
+
+        text = {
+            trigger = { has_country_flag = Fourth_Arab_Israeli_War_Super_se_flag }
+            localization_key = "Fourth_Arab_Israeli_War_Super_title"
+        }
+
+        text = {
+            trigger = { has_country_flag = Myanmar_Civil_War_Super_se_flag }
+            localization_key = "Myanmar_Civil_War_Super_title"
+        }
+
+        text = {
+            trigger = { has_country_flag = Wagner_Coup_Super_se_flag }
+            localization_key = "Wagner_Coup_Super_title"
+        }
+
+        text = {
+            trigger = { has_country_flag = Central_American_War_Super_se_flag }
+            localization_key = "Central_American_War_Super_title"
+        }
+
+        text = {
+            trigger = { has_country_flag = Syrian_Civil_War_End_Bashar_Super_se_flag }
+            localization_key = "Syrian_Civil_War_End_Bashar_Super_title"
+        }
+
+
+
+        text = {
+            trigger = { has_country_flag = Algeria_Morocco_War_Super_se_flag }
+            localization_key = "Algeria_Morocco_War_Super_title"
+        }
+
+        text = {
+            trigger = { has_country_flag = Ethiopia_Egypt_War_Super_se_flag }
+            localization_key = "Ethiopia_Egypt_War_Super_title"
+        }
+
+        text = {
+            trigger = { has_country_flag = India_Pakistan_War_Super_se_flag }
+            localization_key = "India_Pakistan_War_Super_title"
+        }
+
+        text = {
+            trigger = { has_country_flag = Navalny_Coup_Super_se_flag }
+            localization_key = "Navalny_Coup_Super_title"
+        }
+
+        text = {
+            trigger = { has_country_flag = Russia_Kazakhstan_Pacification_Super_se_flag }
+            localization_key = "Russia_Kazakhstan_Pacification_Super_title"
+        }
+
+        text = {
+            trigger = { has_country_flag = Spanish_Civil_War_Super_se_flag }
+            localization_key = "Spanish_Civil_War_Super_title"
+        }
+    }
+
+    defined_text = {
+        name = saimon_get_superevent_quote
+
+        text = {
+            trigger = { has_country_flag = UKR_SpecialOperation_se_flag }
+            localization_key = "UKR_Super_SpecialOperation_text"
+        }
+
+        text = {
+            trigger = { has_country_flag = MEX_Cartel_War_se_flag }
+            localization_key = "MEX_Cartel_War_text"
+        }
+
+        text = {
+            trigger = { has_country_flag = Serbian_Kosovo_War_se_flag }
+            localization_key = "Serbian_Kosovo_War_text"
+        }
+
+        text = {
+            trigger = { has_country_flag = Second_Korean_War_se_flag }
+            localization_key = "Second_Korean_War_text"
+        }
+
+        text = {
+            trigger = { has_country_flag = Fourth_Arab_Israeli_War_Super_se_flag }
+            localization_key = "Fourth_Arab_Israeli_War_Super_text"
+        }
+
+        text = {
+            trigger = { has_country_flag = Myanmar_Civil_War_Super_se_flag }
+            localization_key = "Myanmar_Civil_War_Super_text"
+        }
+
+        text = {
+            trigger = { has_country_flag = Syrian_Civil_War_End_Bashar_Super_se_flag }
+            localization_key = "Syrian_Civil_War_End_Bashar_Super_text"
+        }
+
+        text = {
+            trigger = { has_country_flag = Central_American_War_Super_se_flag }
+            localization_key = "Central_American_War_Super_text"
+        }
+
+        text = {
+            trigger = { has_country_flag = Wagner_Coup_Super_se_flag }
+            localization_key = "Wagner_Coup_Super_text"
+        }
+
+
+
+
+        text = {
+            trigger = { has_country_flag = Algeria_Morocco_War_Super_se_flag }
+            localization_key = "Algeria_Morocco_War_Super_text"
+        }
+
+        text = {
+            trigger = { has_country_flag = Ethiopia_Egypt_War_Super_se_flag }
+            localization_key = "Ethiopia_Egypt_War_Super_text"
+        }
+
+        text = {
+            trigger = { has_country_flag = India_Pakistan_War_Super_se_flag }
+            localization_key = "India_Pakistan_War_Super_text"
+        }
+
+        text = {
+            trigger = { has_country_flag = Navalny_Coup_Super_se_flag }
+            localization_key = "Navalny_Coup_Super_text"
+        }
+
+        text = {
+            trigger = { has_country_flag = Russia_Kazakhstan_Pacification_Super_se_flag }
+            localization_key = "Russia_Kazakhstan_Pacification_Super_text"
+        }
+
+        text = {
+            trigger = { has_country_flag = Spanish_Civil_War_Super_se_flag }
+            localization_key = "Spanish_Civil_War_Super_text"
+        }
+    }
+
+    defined_text = {
+        name = saimon_get_superevent_buton
+
+        text = {
+            trigger = { has_country_flag = UKR_SpecialOperation_se_flag }
+            localization_key = "UKR_Super_SpecialOperation_button"
+        }
+
+        text = {
+            trigger = { has_country_flag = MEX_Cartel_War_se_flag }
+            localization_key = "MEX_Cartel_War_button"
+        }
+
+        text = {
+            trigger = { has_country_flag = Serbian_Kosovo_War_se_flag }
+            localization_key = "Serbian_Kosovo_War_button"
+        }
+
+        text = {
+            trigger = { has_country_flag = Second_Korean_War_se_flag }
+            localization_key = "Second_Korean_War_button"
+        }
+
+        text = {
+            trigger = { has_country_flag = Fourth_Arab_Israeli_War_Super_se_flag }
+            localization_key = "Fourth_Arab_Israeli_War_Super_button"
+        }
+
+        text = {
+            trigger = { has_country_flag = Myanmar_Civil_War_Super_se_flag }
+            localization_key = "Myanmar_Civil_War_Super_button"
+        }
+
+        text = {
+            trigger = { has_country_flag = Wagner_Coup_Super_se_flag }
+            localization_key = "Wagner_Coup_Super_button"
+        }
+
+        text = {
+            trigger = { has_country_flag = Central_American_War_Super_se_flag }
+            localization_key = "Central_American_War_Super_button"
+        }
+
+        text = {
+            trigger = { has_country_flag = Syrian_Civil_War_End_Bashar_Super_se_flag }
+            localization_key = "Syrian_Civil_War_End_Bashar_Super_button"
+        }
+
+
+        
+
+        text = {
+            trigger = { has_country_flag = Algeria_Morocco_War_Super_se_flag }
+            localization_key = "Algeria_Morocco_War_Super_button"
+        }
+
+        text = {
+            trigger = { has_country_flag = Ethiopia_Egypt_War_Super_se_flag }
+            localization_key = "Ethiopia_Egypt_War_Super_button"
+        }
+
+        text = {
+            trigger = { has_country_flag = India_Pakistan_War_Super_se_flag }
+            localization_key = "India_Pakistan_War_Super_button"
+        }
+
+        text = {
+            trigger = { has_country_flag = Navalny_Coup_Super_se_flag }
+            localization_key = "Navalny_Coup_Super_button"
+        }
+
+        text = {
+            trigger = { has_country_flag = Russia_Kazakhstan_Pacification_Super_se_flag }
+            localization_key = "Russia_Kazakhstan_Pacification_Super_button"
+        }
+
+        text = {
+            trigger = { has_country_flag = Spanish_Civil_War_Super_se_flag }
+            localization_key = "Spanish_Civil_War_Super_button"
+        }
+    }

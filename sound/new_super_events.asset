@@ -1,0 +1,120 @@
+soundeffect = {
+	name = "UKR_Super_SpecialOperation"
+	sounds = {
+		sound = UKR_Super_SpecialOperation
+	}
+	volume = 3
+}
+
+soundeffect = {
+	name = "MEX_Cartel_War"
+	sounds = {
+		sound = MEX_Cartel_War
+	}
+	volume = 3
+}
+
+soundeffect = {
+	name = "Serbian_Kosovo_War"
+	sounds = {
+		sound = Serbian_Kosovo_War
+	}
+	volume = 3
+}
+
+soundeffect = {
+	name = "Second_Korean_War"
+	sounds = {
+		sound = Second_Korean_War
+	}
+	volume = 3
+}
+
+soundeffect = {
+	name = "Fourth_Arab_Israeli_War_Super"
+	sounds = {
+		sound = Fourth_Arab_Israeli_War_Super
+	}
+	volume = 3
+}
+
+soundeffect = {
+	name = "Myanmar_Civil_War_Super"
+	sounds = {
+		sound = Myanmar_Civil_War_Super
+	}
+	volume = 3
+}
+
+soundeffect = {
+	name = "Wagner_Coup_Super"
+	sounds = {
+		sound = Wagner_Coup_Super
+	}
+	volume = 3
+}
+
+
+soundeffect = {
+	name = "Syrian_Civil_War_End_Bashar_Super"
+	sounds = {
+		sound = Syrian_Civil_War_End_Bashar_Super
+	}
+	volume = 3
+}
+
+soundeffect = {
+	name = "Central_American_War_Super"
+	sounds = {
+		sound = Central_American_War_Super
+	}
+	volume = 3
+}
+
+soundeffect = {
+	name = "Algeria_Morocco_War_Super"
+	sounds = {
+		sound = Algeria_Morocco_War_Super
+	}
+	volume = 3
+}
+
+soundeffect = {
+	name = "Ethiopia_Egypt_War_Super"
+	sounds = {
+		sound = Ethiopia_Egypt_War_Super
+	}
+	volume = 3
+}
+
+soundeffect = {
+	name = "India_Pakistan_War_Super"
+	sounds = {
+		sound = India_Pakistan_War_Super
+	}
+	volume = 3
+}
+
+soundeffect = {
+	name = "Navalny_Coup_Super"
+	sounds = {
+		sound = Navalny_Coup_Super
+	}
+	volume = 3
+}
+
+soundeffect = {
+	name = "Russia_Kazakhstan_Pacification_Super"
+	sounds = {
+		sound = Russia_Kazakhstan_Pacification_Super
+	}
+	volume = 3
+}
+
+soundeffect = {
+	name = "Spanish_Civil_War_Super"
+	sounds = {
+		sound = Spanish_Civil_War_Super
+	}
+	volume = 3
+}

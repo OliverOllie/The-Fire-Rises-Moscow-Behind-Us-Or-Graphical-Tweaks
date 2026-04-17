@@ -1,0 +1,473 @@
+﻿add_namespace = news
+
+#Russian Ukrainian war
+news_event = {
+	id = news.190
+	title = {
+		text = news.190.t
+		trigger = {
+			NOT = {
+				original_tag = SOV
+			}
+		}
+	}
+	title = {
+		text = news.190.t1
+		trigger = {
+			original_tag = SOV
+		}
+	}
+	desc = news.190.d
+	picture = GFX_ukraine_war
+	is_triggered_only = yes
+	major = yes
+	trigger = {
+	}
+	option = {
+		name = news.190.a
+
+		trigger = {
+			is_in_faction_with = SOV
+		}
+
+		hidden_effect = {
+			if = {
+				limit = {
+					is_ai = no
+				}
+				set_country_flag = UKR_SpecialOperation_se_flag
+				scoped_sound_effect = UKR_Super_SpecialOperation
+				scoped_play_song = "one_minute_of_silence"
+			}
+		}
+	}
+	option = {
+		name = news.190.b
+
+		trigger = {
+			NOT = {
+				OR = {
+					is_in_faction_with = SOV
+					is_in_faction_with = GER
+					is_in_faction_with = FRA
+				}
+			}
+		}
+
+		hidden_effect = {
+			if = {
+				limit = {
+					is_ai = no
+				}
+				set_country_flag = UKR_SpecialOperation_se_flag
+				scoped_sound_effect = UKR_Super_SpecialOperation
+				scoped_play_song = "one_minute_of_silence"
+			}
+		}
+	}
+	option = {
+		name = news.190.c
+
+		trigger = {
+			OR = {
+				is_in_faction_with = GER
+				is_in_faction_with = FRA
+			}
+		}
+
+		hidden_effect = {
+			if = {
+				limit = {
+					is_ai = no
+				}
+				set_country_flag = UKR_SpecialOperation_se_flag
+				scoped_sound_effect = UKR_Super_SpecialOperation
+				scoped_play_song = "one_minute_of_silence"
+			}
+		}
+	}
+}
+
+#Cartel War
+news_event = {
+	id = news.159
+	title = news.159.t
+	desc = news.159.d
+	picture = GFX_Cartel_war
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = news.159.a
+
+		hidden_effect = {
+			if = {
+				limit = {
+					is_ai = no
+				}
+				set_country_flag = MEX_Cartel_War_se_flag
+				scoped_sound_effect = MEX_Cartel_War
+				scoped_play_song = "one_minute_of_silence"
+			}
+		}
+	}
+}
+
+#Arab Unification
+news_event = {
+	id = news.166
+	title = news.166.t
+	desc = news.166.d
+	picture = GFX_HRL_arab_unification
+	is_triggered_only = yes
+	major = yes
+	trigger = {
+	}
+	option = {
+		name = news.166.a
+		hidden_effect = {
+			HRL = {
+				annex_country = {
+					target = TAU
+					transfer_troops = no
+				}
+			}
+			if = {
+				limit = {
+					is_ai = no
+				}
+				set_global_flag = HRL_arab_world_unified_super
+				scoped_sound_effect = TFR_se_arab_world
+				scoped_play_song = "one_minute_of_silence"
+			}
+		}
+	}
+}
+
+#Serbian Invasion of Kosovo
+news_event = {
+	id = news.198
+	title = news.198.t
+	desc = news.198.d
+	picture = GFX_Kosovo_War
+	is_triggered_only = yes
+	major = yes
+	trigger = {
+	}
+	option = {
+		name = news.198.a
+
+		hidden_effect = {
+			if = {
+				limit = {
+					is_ai = no
+				}
+				set_country_flag = Serbian_Kosovo_War_se_flag
+				scoped_sound_effect = Serbian_Kosovo_War
+				scoped_play_song = "one_minute_of_silence"
+			}
+		}
+	}
+}
+
+#North Korea Crosses DMZ
+news_event = {
+	id = news.340
+	title = news.340.t
+	desc = news.340.d
+	picture = GFX_Korean_War
+	is_triggered_only = yes
+	major = yes
+	trigger = {
+		PRK = {
+			has_war_with = KOR
+		}
+	}
+	option = {
+		name = news.340.a
+
+		hidden_effect = {
+			if = {
+				limit = {
+					is_ai = no
+				}
+				set_country_flag = Second_Korean_War_se_flag
+				scoped_sound_effect = Second_Korean_War
+				scoped_play_song = "one_minute_of_silence"
+			}
+		}
+	}
+}
+
+#Myanmar Civil War
+news_event = {
+	id = news.350
+	title = news.350.t
+	desc = news.350.d
+	picture = GFX_Myanmar_Civil_War
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = news.350.a
+
+		hidden_effect = {
+			if = {
+				limit = {
+					is_ai = no
+				}
+				set_country_flag = Myanmar_Civil_War_Super_se_flag
+				scoped_sound_effect = Myanmar_Civil_War_Super
+				scoped_play_song = "one_minute_of_silence"
+			}
+		}
+	}
+}
+
+#4th Arab Israeli War
+news_event = {
+	id = news.218
+	title = news.218.t
+	desc = news.218.d
+	picture = GFX_Arab_Israeli_war
+	is_triggered_only = yes
+	major = yes
+	trigger = {
+	}
+	option = {
+		name = news.218.a
+
+		hidden_effect = {
+			if = {
+				limit = {
+					is_ai = no
+				}
+				set_country_flag = Fourth_Arab_Israeli_War_Super_se_flag
+				scoped_sound_effect = Fourth_Arab_Israeli_War_Super
+				scoped_play_song = "one_minute_of_silence"
+			}
+		}
+	}
+}
+
+#Wagner Coup
+news_event = {
+	id = news.311
+	title = news.311.t
+	desc = news.311.d
+	picture = GFX_wagner_coup
+	is_triggered_only = yes
+	major = yes
+	trigger = {
+	}
+	option = {
+		name = news.311.a
+
+		hidden_effect = {
+			if = {
+				limit = {
+					is_ai = no
+				}
+				set_country_flag = Wagner_Coup_Super_se_flag
+				scoped_sound_effect = Wagner_Coup_Super
+				scoped_play_song = "one_minute_of_silence"
+			}
+		}
+	}
+}
+
+#Syrian Civil War Ends
+news_event = {
+	id = news.116
+	title = news.116.t
+	desc = news.116.d
+	picture = GFX_Syrian_Civil_War_Over
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = news.116.a
+		trigger = {
+			NOT = {
+				tag = SYR
+			}
+		}
+
+		hidden_effect = {
+			if = {
+				limit = {
+					is_ai = no
+				}
+				set_country_flag = Syrian_Civil_War_End_Bashar_Super_se_flag
+				scoped_sound_effect = Syrian_Civil_War_End_Bashar_Super
+				scoped_play_song = "one_minute_of_silence"
+			}
+		}
+	}
+	option = {
+		name = news.116.b
+		trigger = {
+			tag = SYR
+		}
+
+		hidden_effect = {
+			if = {
+				limit = {
+					is_ai = no
+				}
+				set_country_flag = Syrian_Civil_War_End_Bashar_Super_se_flag
+				scoped_sound_effect = Syrian_Civil_War_End_Bashar_Super
+				scoped_play_song = "one_minute_of_silence"
+			}
+		}
+	}
+}
+
+#Central American War
+news_event = {
+	id = news.322
+	title = news.322.t
+	desc = news.322.d
+	picture = GFX_latin_american_war1
+	is_triggered_only = yes
+	major = yes
+	trigger = {
+	}
+	option = {
+		name = news.322.a
+
+		hidden_effect = {
+			if = {
+				limit = {
+					is_ai = no
+				}
+				set_country_flag = Central_American_War_Super_se_flag
+				scoped_sound_effect = Central_American_War_Super
+				scoped_play_song = "one_minute_of_silence"
+			}
+		}
+	}
+}
+
+news_event = {
+	#kazakhstan SMO
+	id = news.316
+	title = news.316.t
+	desc = news.316.d
+	picture = GFX_kazakh_smo
+	is_triggered_only = yes
+	major = yes
+	trigger = {}
+
+	option = {
+		name = news.316.a
+
+		hidden_effect = {
+			if = {
+				limit = {
+					is_ai = no
+				}
+				set_country_flag = Russia_Kazakhstan_Pacification_Super_se_flag
+				scoped_sound_effect = Russia_Kazakhstan_Pacification_Super
+				scoped_play_song = "one_minute_of_silence"
+			}
+		}
+	}
+}
+
+#Navalny Revolution
+news_event = {
+	id = news.332
+	title = news.332.t
+	desc = news.332.d
+	picture = GFX_Navalny_Protests
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = news.332.a
+
+		hidden_effect = {
+			if = {
+				limit = {
+					is_ai = no
+				}
+				set_country_flag = Navalny_Coup_Super_se_flag
+				scoped_sound_effect = Navalny_Coup_Super
+				scoped_play_song = "one_minute_of_silence"
+			}
+		}
+	}
+}
+
+#Algerian-Moroccan War
+news_event = {
+	id = news.183
+	title = news.183.t
+	desc = news.183.d
+	picture = GFX_Algerian_moroccan_war
+	is_triggered_only = yes
+	major = yes
+	trigger = {
+	}
+	option = {
+		name = news.183.a
+
+		hidden_effect = {
+			if = {
+				limit = {
+					is_ai = no
+				}
+				set_country_flag = Algeria_Morocco_War_Super_se_flag
+				scoped_sound_effect = Algeria_Morocco_War_Super
+				scoped_play_song = "one_minute_of_silence"
+			}
+		}
+	}
+}
+
+#Third African War
+news_event = {
+	id = news.171
+	title = news.171.t
+	desc = news.171.d
+	picture = GFX_Third_African_war
+	is_triggered_only = yes
+	major = yes
+	trigger = {
+	}
+	option = {
+		name = news.171.a
+
+		hidden_effect = {
+			if = {
+				limit = {
+					is_ai = no
+				}
+				set_country_flag = Ethiopia_Egypt_War_Super_se_flag
+				scoped_sound_effect = Ethiopia_Egypt_War_Super
+				scoped_play_song = "one_minute_of_silence"
+			}
+		}
+	}
+}
+
+#Spanish Civil War
+news_event = {
+	id = news.254
+	title = news.254.t
+	desc = news.254.d
+	picture = GFX_Spanish_Civil_War
+	is_triggered_only = yes
+	major = yes
+	option = {
+		name = news.254.a
+
+		hidden_effect = {
+			if = {
+				limit = {
+					is_ai = no
+				}
+				set_country_flag = Spanish_Civil_War_Super_se_flag
+				scoped_sound_effect = Spanish_Civil_War_Super
+				scoped_play_song = "one_minute_of_silence"
+			}
+		}
+	}
+}

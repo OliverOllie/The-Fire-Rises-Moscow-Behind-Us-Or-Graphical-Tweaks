@@ -1,0 +1,91 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_UKR_Super_SpecialOperation"
+		texturefile = "gfx/super_events/UKR_Super_SpecialOperation.png"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_MEX_Cartel_War"
+		texturefile = "gfx/super_events/MEX_Cartel_War.png"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Serbian_Kosovo_War"
+		texturefile = "gfx/super_events/Serbian_Kosovo_War.png"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Second_Korean_War"
+		texturefile = "gfx/super_events/Second_Korean_War.png"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Fourth_Arab_Israeli_War_Super"
+		texturefile = "gfx/super_events/Fourth_Arab_Israeli_War.png"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Myanmar_Civil_War_Super"
+		texturefile = "gfx/super_events/Myanmar_Civil_War.png"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Wagner_Coup_Super"
+		texturefile = "gfx/super_events/Wagner_Coup.png"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Central_American_War_Super"
+		texturefile = "gfx/super_events/Central_American_War.png"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Syrian_Civil_War_End_Bashar_Super"
+		texturefile = "gfx/super_events/Syrian_Civil_War_End_Bashar.png"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Algeria_Morocco_War_Super"
+		texturefile = "gfx/super_events/Algeria_Morocco_War.png"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Ethiopia_Egypt_War_Super"
+		texturefile = "gfx/super_events/Ethiopia_Egypt_War.png"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_India_Pakistan_War_Super"
+		texturefile = "gfx/super_events/India_Pakistan_War.png"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Navalny_Coup_Super"
+		texturefile = "gfx/super_events/Navalny_Coup.png"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Russia_Kazakhstan_Pacification_Super"
+		texturefile = "gfx/super_events/Russia_Kazakhstan_Pacification.png"
+		legacy_lazy_load = no
+	}
+
+	spriteType = {
+		name = "GFX_Spanish_Civil_War_Super"
+		texturefile = "gfx/super_events/Spanish_Civil_War.png"
+		legacy_lazy_load = no
+	}
+}

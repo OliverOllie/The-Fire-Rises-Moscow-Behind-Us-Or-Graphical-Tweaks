@@ -1,0 +1,26 @@
+﻿add_namespace = PAK
+
+news_event = {
+	id = PAK.7
+	title = PAK.7.t
+	desc = PAK.7.d
+	picture = GFX_India_Pakistan_War
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = PAK.7.a
+		
+		hidden_effect = {
+			if = {
+				limit = {
+					is_ai = no
+				}
+				
+				set_country_flag = India_Pakistan_War_Super_se_flag
+				scoped_sound_effect = India_Pakistan_War_Super
+				scoped_play_song = "one_minute_of_silence"
+			}
+		}
+	}
+}
