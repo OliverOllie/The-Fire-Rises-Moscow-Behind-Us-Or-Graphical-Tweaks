@@ -1,0 +1,32 @@
+	spriteTypes = {
+			frameAnimatedSpriteType = {
+			name = "GFX_Portrait_PRC_The_Long_March"
+			texturefile = "gfx/leaders/PRC/PRC_Mao_Zedong.dds"
+			noOfFrames = 48
+			animation_rate_fps = 7
+			looping = yes
+			play_on_show = yes  
+		}
+	}
+
+	spriteTypes = {
+			frameAnimatedSpriteType = {
+			name = "Milorad_Dodik_real"
+			texturefile = "gfx/leaders/SRP/Milorad_Dodik_real.dds"
+			noOfFrames = 75
+			animation_rate_fps = 13
+			looping = yes
+			play_on_show = yes  
+		}
+	}
+
+	spriteTypes = {
+			frameAnimatedSpriteType = {
+			name = "zoran_milanovic_real"
+			texturefile = "gfx/leaders/CRO/CRO_zoran_milanovic_real.dds"
+			noOfFrames = 40
+			animation_rate_fps = 13
+			looping = yes
+			play_on_show = yes  
+		}
+	}
