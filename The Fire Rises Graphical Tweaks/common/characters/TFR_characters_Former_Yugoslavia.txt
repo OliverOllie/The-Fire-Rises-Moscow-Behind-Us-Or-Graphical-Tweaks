@@ -75,7 +75,7 @@
 		CRO_zoran_milanovic_char = {
 			portraits={
 				civilian={
-					large = "gfx/leaders/CRO/CRO_zoran_milanovic.png"
+					large =zoran_milanovic_real
 				}
 			}
 			country_leader={
@@ -241,7 +241,7 @@
 		SRP_milorad_dodik_char = {
 			portraits={
 				civilian={
-					large = "gfx/leaders/SRP/Milorad_Dodik_real.png"
+					large =Milorad_Dodik_real
 				}
 			}
 			country_leader={
